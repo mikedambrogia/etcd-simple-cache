@@ -1,0 +1,27 @@
+{
+  "name": "ecrimex/etcd-simple-cache",
+  "description": "An etcdv2 backed PSR-16 implementation",
+  "type": "library",
+  "license": "proprietary",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Andrew Breksa",
+      "email": "abreksa4@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "eCrimeX\\": "./src/eCrimeX"
+    }
+  },
+  "require": {
+    "php": "^5.6|^7.0",
+    "psr/simple-cache": "^1.0",
+    "guzzlehttp/guzzle": "^6"
+  },
+  "require-dev": {
+  }
+}
